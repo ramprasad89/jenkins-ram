@@ -1,0 +1,1 @@
+	RewriteRule ^/health/lifestyle(.*)$ 	https://%{HTTP_HOST}/health/mind-body/ [NC,L,QSA,R=301]
